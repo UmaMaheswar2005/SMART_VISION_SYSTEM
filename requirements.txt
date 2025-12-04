@@ -1,6 +1,0 @@
-opencv-python
-pillow
-deepface
-google-generativeai
-pyttsx3
-tf-keras
