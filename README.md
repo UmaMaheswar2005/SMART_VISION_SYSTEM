@@ -49,5 +49,5 @@ The system features a **Secure Admin Login**, capability to connect with **CCTV/
     python main.py
     ```
 
-## 📸 Screenshots
-*(Upload a screenshot of your new GUI here)*
+
+
