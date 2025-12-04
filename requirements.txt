@@ -1,0 +1,8 @@
+opencv-python
+pillow
+deepface
+ultralytics
+google-generativeai
+pyttsx3
+tf-keras
+numpy
