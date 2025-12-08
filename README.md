@@ -7,7 +7,7 @@ The system features a **Secure Admin Login**, capability to connect with **CCTV/
 
 ## 🚀 Key Features
 ### 1. 🔒 Secure Access Control
-* **Biometric Lock:** System remains locked until the Administrator (e.g., "Mahi") is visually identified by the camera.
+* **Biometric Lock:** System remains locked until the Administrator (e.g., "Admin") is visually identified by the camera.
 * **Intruder Trap:** Automatically captures photos of unauthorized users attempting to breach the system and saves them to an `intruders/` folder.
 
 ### 2. 📹 Multi-Source Surveillance
