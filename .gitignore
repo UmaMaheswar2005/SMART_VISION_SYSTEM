@@ -1,11 +1,6 @@
-# AI Models and Data
-*.pt
-*.h5
 dataset/
 intruders/
-.deepface/
-
-# Python/Conda stuff
 __pycache__/
-*.pyc
-.env
+*.pt
+*.h5
+.DS_Store
