@@ -1,4 +1,4 @@
-# Core AI Engines
+# Core Vision & AI Engines
 tensorflow==2.20.0
 tf-keras==2.20.1
 ultralytics==8.4.15
@@ -9,7 +9,7 @@ opencv-python==4.13.0.92
 Pillow==12.1.1
 numpy==2.4.2
 
-# Generative AI & Voice
+# Generative AI & Utilities
 google-genai==1.64.0
-pyttsx3==2.99
 python-dotenv==1.2.1
+pyttsx3==2.99

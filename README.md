@@ -23,25 +23,25 @@ A high-performance **AI Surveillance System** optimized for Apple Silicon (M4/M3
 * **Vision:** OpenCV 4.13, DeepFace, YOLOv8
 * **Generative AI:** Google GenAI SDK (Gemini 1.5 Flash)
 
+---
+
 ## ⚙️ Installation & Setup
 
 ### 1. Prerequisites
 * **Miniforge3** (Conda) installed for ARM64.
 * **Google Gemini API Key** from Google AI Studio.
 
-### 2. Clone and Setup
+### 2. Steps to Run
 ```bash
+# Clone the Repository
 git clone [https://github.com/UmaMaheswar2005/SMART_VISION_SYSTEM.git](https://github.com/UmaMaheswar2005/SMART_VISION_SYSTEM.git)
 cd SMART_VISION_SYSTEM
 
-### 3. Environment Configuration
-```bash
-conda create -n vision_system python=3.11
+# Environment Configuration
 conda activate vision_system
 pip install -r requirements.txt
 
-### 4. Run the Application
-```bash
+# Run the Application
 python visual_search_engine.py
 
 📂 Project Structure
@@ -54,10 +54,3 @@ intruders/: Evidence locker for unauthorized access attempts.
 requirements.txt: M4-specific dependency manifest.
 
 project_logs.csv: Automated audit trail of all security events.
-
-⚠️ Troubleshooting (M4 Mac)
-Trace Trap / SegFault: Ensure you are using the vision_system Conda environment and that tensorflow-metal is uninstalled to prevent pointer authentication errors.
-
-Camera Access: If the camera doesn't open, ensure Terminal or VS Code has "Camera" and "Full Disk Access" permissions in macOS System Settings.
-
-
